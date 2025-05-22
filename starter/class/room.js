@@ -52,14 +52,15 @@ class Room {
   }
 
   getItemByName(name) {
-
-    // Fill this in
+    let item = this.items.find(item => item.name.toLowerCase() === name.toLowerCase());
+    return item
 
   }
 
   getEnemyByName(name) {
 
-    // Fill this in
+      // Fill this in
+  }
 
 }
 
